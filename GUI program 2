@@ -1,0 +1,16 @@
+from tkinter import *
+root = Tk()
+root.title("Application")
+root.geometry("400x500")
+lbl = Label(root, text="Enter name : ")
+lbl.place(x=60,y=10)
+ent = Entry(root, width=40)
+ent.place(x=50,y=50)
+
+mess= Label(root, text=" ")
+mess.place(x=100,y=200)
+
+btn = Button(root, text="Click me ", command=lambda:mess.config(text=f"Hello {ent.get()}"))
+btn.place(x=100,y=100)
+
+root.mainloop()
