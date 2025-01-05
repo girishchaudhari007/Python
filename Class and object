@@ -1,0 +1,12 @@
+class demo:
+    def __init__(self,rno,name):
+        self.rno=rno
+        self.name=name
+    
+    def info(self):
+        print(f"roll no is:{self.rno}")
+        print(f"name is:{self.name}")
+        
+p1=demo(1,"Girish chaudhari")
+
+p1.info()
