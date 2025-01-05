@@ -1,0 +1,32 @@
+from bs4 import BeautifulSoup
+
+# Sample HTML string
+html_doc ="""
+<html>
+<head><title>Example Web Page</title></head>
+<body>
+<h1>This is a Heading</h1>
+<p>This is a paragraph of text.</p>
+<a href="https://example.com">Visit Example</a>
+</body>
+</html>"""
+
+
+# Parse the HTML document
+soup = BeautifulSoup(html_doc, 'html.parser')
+
+# Extract title
+title = soup.title.string
+print(f"Title: {title}")
+
+# Extract heading
+heading = soup.h1.string
+print(f"Heading: {heading}")
+
+# Extract paragraph
+paragraph = soup.p.string
+print(f"Paragraph: {paragraph}")
+
+# Extract link and its URL
+link = soup.a['href']
+print(f"Link URL: {link}")
