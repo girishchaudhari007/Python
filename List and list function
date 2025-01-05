@@ -1,0 +1,17 @@
+ls=["girish","chetan","praful","jay","akash","divyesh"]
+print(ls)
+print(type(ls))
+
+print(ls.append("ck"))
+print(ls.pop())
+print(ls.insert(2,"sonu"))
+print(ls.remove("chetan"))
+print(ls.count("girish"))
+print(ls.copy())
+print(ls.sort())
+print(ls)
+print(ls.index("girish"))
+print(ls.reverse())
+print(ls)
+#print(ls.clear())
+#print(ls)
