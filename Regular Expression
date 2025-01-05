@@ -1,0 +1,32 @@
+import re
+txt="the rain in spain"
+x=re.findall("ai",txt)
+print(x)
+
+#search
+import re 
+txt="the rain in spain"
+x=re.search("the spain",txt)
+if x:
+    print("match data")
+else:
+    print("unmatch data")
+
+#Findall
+import re
+txt="the rain in spain"
+x=re.findall("ai",txt)
+print(x)
+
+#Split
+import re 
+txt="the rain in spain"
+x=re.split("\s",txt)
+print(x)
+
+#sub
+import re 
+txt = "the rain in spain"
+x=re.sub("\s","g",txt)
+print(x)
+
