@@ -1,0 +1,16 @@
+import array as arr
+data = arr.array("i",[10,25,6,5,6,5])
+print(data)
+print(type(data))
+
+data.append(14)
+print(data)
+
+data.insert(2,20)
+print(data)
+
+print("index of 25:",data.index(25))
+print("count of 6:",data.count(6))
+print(data.remove(10))
+print(data)
+print(data.pop(5))
