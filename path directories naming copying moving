@@ -1,0 +1,7 @@
+import os
+import shutil as sh
+
+#os.mkdir("E:/New folder/girish")
+#sh.move("E:/New folder/demo1.pdf","E:/New folder/girish")
+#sh.copy("E:/New folder/girish/demo1.pdf","E:/New folder/demo1.pdf")
+#os.remove("E:/New folder/demo1.pdf")
