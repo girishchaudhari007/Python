@@ -1,0 +1,16 @@
+def giri(a,b):
+    add=a+b
+    sub=a-b
+    div=a/b
+    mul=a*b
+    
+
+    print(f"Addition is:{add}")
+    print(f"substaction is:{sub}")
+    
+    
+a=int(input("enter the A value:"))
+b=int(input("enter the B Value:"))
+
+
+giri(a,b)
