@@ -1,0 +1,21 @@
+import os
+import fnmatch
+
+def search(directory,patter):
+    match=[]
+    
+    for root,dirr,files in os.walk(directory):
+        for file in fnmatch.filter(files,patter):
+            match.append(os.path.join(root,file))
+            
+    return match
+
+dirr = input("enter directory::")
+pat = input("enter the pattern::")
+
+found=search(dirr,pat)
+
+if found:
+    print("files found:")
+    for file in found:
+        print(file)
