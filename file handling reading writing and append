@@ -1,0 +1,22 @@
+#create a file in jupiter notebook and save a file 111.txt
+
+#Write
+file=open("111.txt","w")
+file.write("\n hii my name is girish i am from shindkheda")
+file.close()
+
+#Read
+file=open("111.txt","r")
+x=file.read()
+print(x)
+file.close()
+
+#Append
+file=open("111.txt","a")
+file.write("\nimrd college")
+file.close()
+
+file=open("111.txt","r")
+x=file.read()
+print(x)
+file.close()
