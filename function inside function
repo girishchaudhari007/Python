@@ -1,0 +1,12 @@
+def giri():
+    def giri1(a,b):
+        add=a+b
+        print("Addtion is",+add)
+        print("this is inline function")
+        
+        
+    print("This is outer function")
+    a=10
+    b=5
+    giri1(a,b)
+giri()
