@@ -1,4 +1,5 @@
-#lambda functio
+#lambda function
+
 tra=lambda m,n:1/2*m*n
 res=tra(34,24)
 print("Area of rectangle:",res)
